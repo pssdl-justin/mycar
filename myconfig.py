@@ -50,7 +50,7 @@
 # DRIVE_TRAIN_TYPE = "SERVO_ESC" # SERVO_ESC|DC_STEER_THROTTLE|DC_TWO_WHEEL|SERVO_HBRIDGE_PWM|PIGPIO_PWM|MM1|MOCK
 # 
 # #STEERING
-#STEERING_CHANNEL = 1            #channel on the 9685 pwm board 0-15
+STEERING_CHANNEL = 1            #channel on the 9685 pwm board 0-15
 STEERING_LEFT_PWM = 470         #pwm value for full left steering
 STEERING_RIGHT_PWM = 260        #pwm value for full right steering
 # 
@@ -60,7 +60,7 @@ STEERING_RIGHT_PWM = 260        #pwm value for full right steering
 # STEERING_PWM_INVERTED = False   #If PWM needs to be inverted
 # 
 # #THROTTLE
-# THROTTLE_CHANNEL = 0            #channel on the 9685 pwm board 0-15
+THROTTLE_CHANNEL = 0            #channel on the 9685 pwm board 0-15
 THROTTLE_FORWARD_PWM = 400      #pwm value for max forward throttle
 THROTTLE_STOPPED_PWM = 325      #pwm value for no movement
 THROTTLE_REVERSE_PWM = 290      #pwm value for max reverse throttle
